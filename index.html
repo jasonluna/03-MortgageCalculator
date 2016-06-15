@@ -8,39 +8,49 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- tab header -->
     <title>Mortage Calculator</title>
 </head>
 
 <body>
+<!-- page title -->
     <h1>jQuery Mortgage Calculator</h1>
+    <!-- bootstrap inline form -->
     <div class="form-horizontal">
         <div class="form-group">
             <label class="col-sm-2 control-label">Loan Balance</label>
             <div class="col-sm-10">
+            <!-- user input for loan balance -->
                 <input type="text" class="form-control" id="loanBalance">
             </div>
         </div>
         <div class="form-group">
             <label class="col-sm-2 control-label">Interest Rate (%)</label>
             <div class="col-sm-10">
+            <!-- user input for intrest rate -->
                 <input type="text" class="form-control" id="interestRate">
             </div>
         </div>
         <div class="form-group">
             <label class="col-sm-2 control-label">Loan Term (years)</label>
             <div class="col-sm-10">
+            <!-- user input loan term in years -->
                 <input type="text" class="form-control" id="loanTerm">
             </div>
         </div>
         <br> Period
+        <!-- select monthly or bimonthly -->
         <select id="period"></select>
         <br>
         <br>
+        <!-- button and its style from bootstrap -->
         <button id="calculate" class="btn btn-primary">Calculate</button>
         <p id="totalRent"></p>
         </div>
+        <!-- refrence my js file -->
         <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
+<!-- JK, SB -->
